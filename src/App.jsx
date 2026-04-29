@@ -12,49 +12,49 @@ import profileImg from './assets/profile.jpg';
 const projects = [
   {
     id: 1,
-    title: "DVA_Capstone_G2",
-    description: "Restaurant Performance & Operational Optimization. Analyzed transactional sales data to evaluate revenue structure, operational efficiency, and simulated sensitivity models.",
-    language: "Google Sheets",
-    categories: ["Google Sheets", "Data Visualisation"],
-    langColor: "#00f0ff",
-    link: "https://github.com/dakshbatra01/DVA_Capstone_G2",
-    stars: 12,
-    forks: 3,
+    title: "FinShield — Loan Risk Analytics",
+    description: "Identified high-risk borrowers using financial data and built a risk segmentation framework to support better underwriting decisions and reduce default exposure.",
+    language: "Python",
+    categories: ["Python", "Tableau", "Data Analytics"],
+    langColor: "#3572A5",
+    link: "https://github.com/dakshbatra01/SectionD_G1_FinShield/tree/main",
+    stars: 8,
+    forks: 1,
     image: proj1
   },
   {
     id: 2,
-    title: "SectionD_G1_FinShield",
-    description: "FinShield: Loan Risk Prediction. Data-driven risk segmentation framework identifying key financial factors driving loan defaults using LTV & DTI dual-band policies.",
+    title: "ChurnGuard — Customer Retention Analytics",
+    description: "Analyzed customer behavior and engagement patterns to identify churn risk, enabling proactive retention strategies and improved customer lifetime value.",
     language: "Python",
-    categories: ["Python", "Tableau", "Data Visualisation"],
+    categories: ["Python", "Streamlit", "Data Analytics"],
     langColor: "#3572A5",
-    link: "https://github.com/dakshbatra01/SectionD_G1_FinShield",
-    stars: 8,
-    forks: 1,
+    link: "https://churnguard-ten.vercel.app/",
+    stars: 6,
+    forks: 0,
     image: proj2
   },
   {
     id: 3,
-    title: "Netflix_Data_Analysis",
-    description: "Netflix Content Strategy Analysis. Interactive Tableau dashboard bridging SQL databases to visualize content distribution, genre trends, and geographic heatmaps.",
-    language: "Tableau",
-    categories: ["Python", "Tableau", "Data Visualisation"],
-    langColor: "#e97627",
-    link: "https://github.com/dakshbatra01/Netflix_Data_Analysis",
-    stars: 15,
-    forks: 4,
+    title: "Valuation Ratio Analysis",
+    description: "Financial modeling and valuation ratio analysis for BEL and HAL, including Earnings Per Share, Price to Earnings, and Price to Sales ratios.",
+    language: "Excel",
+    categories: ["Excel", "Business Analytics", "Data Visualisation"],
+    langColor: "#217346",
+    link: "https://rishihoodeduin-my.sharepoint.com/:x:/g/personal/ishan_goyal2024_rishihood_edu_in/ETRjqGNgwdlLq8HPIjWuspgBSCRTA90Ksg25jBMwdqPh0Q?e=kCBHNB",
+    stars: 5,
+    forks: 0,
     image: proj3
   },
   {
     id: 4,
-    title: "HR_Attrition_Analysis",
-    description: "HR Attrition Analytics dashboard to investigate organizational patterns. Visualized metrics across demographics and income levels to enable retention strategies.",
-    language: "Data Visualisation",
-    categories: ["Python", "Tableau", "Data Visualisation"],
-    langColor: "#8b5cf6",
-    link: "https://github.com/dakshbatra01/HR_Attrition_Analysis",
-    stars: 5,
+    title: "DuPont Analysis",
+    description: "3-Stage and 5-Stage DuPont Analysis dashboard detailing Return on Asset (ROA) and Return on Equity (ROE) metrics for major corporations.",
+    language: "Excel",
+    categories: ["Excel", "Operations Analytics", "Data Visualisation"],
+    langColor: "#217346",
+    link: "https://rishihoodeduin-my.sharepoint.com/:x:/g/personal/milind_bansal2024_rishihood_edu_in/IQCiCxf_HEKFS6VZwfkuR47cAbLblauFupohasMVfrtmBGQ?e=xL8dAF",
+    stars: 4,
     forks: 0,
     image: proj4
   }
@@ -98,18 +98,18 @@ function App() {
         
         {/* Sidebar */}
         <div style={styles.sidebar}>
-          <img src={profileImg} alt="Daksh Batra" style={styles.avatar} />
+          <img src={profileImg} alt="Bytebard089" style={styles.avatar} />
           
           <div style={styles.vcardNames}>
-            <h1 style={styles.vcardFullname}>Daksh Batra</h1>
-            <h2 style={styles.vcardUsername}>dakshbatra01</h2>
+            <h1 style={styles.vcardFullname}>Bytebard089</h1>
+            <h2 style={styles.vcardUsername}>Bytebard089</h2>
           </div>
 
           <div style={styles.userProfileBio}>
             Data Visualization & Analytics professional dedicated to "Transforming Complex Data into Actionable Intelligence."
           </div>
 
-          <a href="https://github.com/dakshbatra01" target="_blank" rel="noopener noreferrer" style={styles.btnProfile}>
+          <a href="https://github.com/Bytebard089" target="_blank" rel="noopener noreferrer" style={styles.btnProfile}>
             Follow
           </a>
 
@@ -122,11 +122,11 @@ function App() {
             </li>
             <li style={styles.vcardItem}>
               <Mail size={16} />
-              <a href="mailto:daksh.batra2024@nst.rishihood.edu.in">daksh.batra2024@nst.rishihood.edu.in</a>
+              <a href="mailto:bytebard089@gmail.com">bytebard089@gmail.com</a>
             </li>
             <li style={styles.vcardItem}>
               <LinkIcon size={16} />
-              <a href="https://linkedin.com/in/daksh-batra-124814317/" target="_blank" rel="noopener noreferrer">linkedin.com/in/daksh-batra-124814317</a>
+              <a href="https://www.linkedin.com/in/bytebard089/" target="_blank" rel="noopener noreferrer">linkedin.com/in/bytebard089</a>
             </li>
           </ul>
 

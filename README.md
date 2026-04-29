@@ -1,6 +1,6 @@
 # DVA Portfolio
 
-A GitHub-style data visualization and analytics portfolio for **Isha Tomar**. The app presents a sidebar profile, technical expertise badges, searchable repository cards, and a project modal in a fast Vite + React experience.
+A GitHub-style data visualization and analytics portfolio for **Bytebard089**. The app presents a sidebar profile, technical expertise badges, searchable repository cards, and a project modal in a fast Vite + React experience.
 
 ## Live Demo
 
@@ -8,7 +8,7 @@ A GitHub-style data visualization and analytics portfolio for **Isha Tomar**. Th
 
 ## What It Shows
 
-- Profile section for Isha Tomar / Bytebard089 with Delhi, India and LinkedIn contact details
+- Profile section for Bytebard089 with Delhi, India and LinkedIn contact details
 - Technical expertise badges across Tableau, PowerBI, Seaborn, Matplotlib, Pandas, NumPy, SQL, Excel, Python, Statistical Modeling, Machine Learning, Scenario Modeling, KPI Tracking, and Risk Segmentation
 - Repository grid with search and category filters
 - Project modal with image preview and live repository link
@@ -59,7 +59,7 @@ This project is already configured for a static frontend deployment. The simples
 
 ## Contact
 
-- Email: isha.tomar2024@nst.rishihood.edu.in
-- LinkedIn: [Isha Tomar](https://www.linkedin.com/in/isha-tomar-4028a0307/)
+- Email: bytebard089@gmail.com
+- LinkedIn: [Bytebard089](https://www.linkedin.com/in/bytebard089/)
 - GitHub: [@Bytebard089](https://github.com/Bytebard089)
 
